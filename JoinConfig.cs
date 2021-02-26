@@ -13,8 +13,6 @@ namespace SCPET_JoinMessage
         public bool IsEnabled { get; set; } = true;
         public string BroadcastMessage { get; set; } = "Welcome to my server!";
         public string ChatMessage { get; set; } = "Welcome %player%, to my Server!";
-
-        [Description("How long does the broadcasted message appear on the players screen")]
         public int Timer { get; set; } = 5;
     }
 }
