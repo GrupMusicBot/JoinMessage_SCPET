@@ -11,7 +11,7 @@ A really simple plugin to display a message on the players screen when they join
 
 
 Config Example:
-```
+```json
 {
   "IsEnabled": true,
   "BroadcastMessageEnabled": true,
