@@ -11,5 +11,17 @@ A really simple plugin to display a message on the players screen when they join
 
 
 Config Example:
+```
+{
+  "IsEnabled": true,
+  "BroadcastMessageEnabled": true,
+  "BroadcastMessage": "<color=green> %player%, Welcome to Your Server Name! </color>",
+  "ChatMessageEnabled": true,
+  "ChatMessage": "Welcome %player%, Join our Discord at : discord.gg/qvanityurl",
+  "MissionMessage": "Have Fun!",
+  "MissionMessageEnabled": true,
+  "Timer": 5
+}
+```
 
-`"ChatMessage": "Welcome %player% to my server!"`
+The Timer Config is the amount of seconds that the broadcast message is displayed for
