@@ -2,8 +2,8 @@
 ## Requires the latest version of Census
 
 A really simple plugin to display a message on the players screen when they join.
-**Installation**
 
+**Installation**
 1. Download the JoinMessage_SCPET.dll from the Releases Tab
 2. Drag into your Plugins Folder
 3. Start the Server, and configure the plugin in /CensusConfigs/JoinMessage.json
