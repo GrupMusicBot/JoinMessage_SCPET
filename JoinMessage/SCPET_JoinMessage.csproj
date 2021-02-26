@@ -55,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JoinConfig.cs" />
-    <Compile Include="JoinEventHandler.cs" />
+    <Compile Include="Event\JoinEventHandler.cs" />
     <Compile Include="JoinMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

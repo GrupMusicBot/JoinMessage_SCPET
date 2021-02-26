@@ -7,7 +7,7 @@ namespace SCPET_JoinMessage
     {
         public override string Name => "JoinMessage";
 
-        public override Version Version => new Version(1, 0, 1);
+        public override Version Version => new Version(1, 1, 0);
 
         public override string Author => "KuebV";
 
@@ -21,6 +21,7 @@ namespace SCPET_JoinMessage
         public override void Enable()
         {
             Instance = this;
+            
             CensusCore.CensusCore.InjectEvents();
 
         }
