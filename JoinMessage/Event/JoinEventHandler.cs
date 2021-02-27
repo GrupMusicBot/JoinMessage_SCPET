@@ -27,8 +27,7 @@ namespace SCPET_JoinMessage
             if (JoinMessage.Instance.Config.ChatMessageEnabled){
                 player.SendChatMessage(ChatMessage);
             }
-            if (JoinMessage.Instance.Config.MissionMessageEnabled)
-            {
+            if (JoinMessage.Instance.Config.MissionMessageEnabled){
                 player.AddMission(MissionMessage, false);
             }
 
